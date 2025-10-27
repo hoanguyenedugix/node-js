@@ -1,0 +1,21 @@
+{
+    "type": "module",
+    "name": "json-to-html-tool",
+    "version": "1.0.0",
+    "description": "Fill HTML template from JSON files (data-field / data-type aware)",
+    "main": "index.js",
+    "scripts": {
+        "start": "node auto_upload.js"
+    },
+    "dependencies": {
+        "axios": "^1.12.2",
+        "cheerio": "^1.1.2",
+        "dotenv": "^17.2.3",
+        "fs": "^0.0.1-security",
+        "minimist": "^1.2.8",
+        "uuid": "^13.0.0"
+    },
+    "engines": {
+        "node": ">=14"
+    }
+}
