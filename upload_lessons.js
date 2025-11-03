@@ -5,7 +5,7 @@ import axios from "axios";
 const BASE_URL_DEV = "https://icms.schoolux.ai";
 const BASE_URL_PROD = "https://icms.knowylab.io";
 const TOKEN =
-"Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiUk9MRV9DT05URU5UX01BTkFHRVIiLCJ1c2VybmFtZSI6InR1eWVuLm5ndXllbkBlZHVnaXguY29tIiwic3ViIjoidHV5ZW4ubmd1eWVuQGVkdWdpeC5jb20iLCJpYXQiOjE3NjE1NDU4MjMsImV4cCI6MTc2MTU0OTQyM30.J5cA0fk-liUXqK6syVDsanUI-0Ira0_NsnAqsW-_y10"
+"Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiUk9MRV9DT05URU5UX01BTkFHRVIiLCJ1c2VybmFtZSI6InR1eWVuLm5ndXllbkBlZHVnaXguY29tIiwic3ViIjoidHV5ZW4ubmd1eWVuQGVkdWdpeC5jb20iLCJpYXQiOjE3NjE3OTY0MTksImV4cCI6MTc2MTgwMDAxOX0.AoFFFBUJbMa4E-FUkdreBUCc17milJLyL7LHL_l2K_s"
 const LESSON_DIR = "./html_lesson_plan"; // thư mục chứa HTML
 
 // 🧩 Hàm bổ sung — tự động bọc HTML + meta charset nếu thiếu
